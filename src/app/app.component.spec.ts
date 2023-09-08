@@ -9,6 +9,7 @@ describe('AppComponent', () => {
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
+    fixture.detectChanges(); // Adicione esta linha
     expect(app).toBeTruthy();
   });
 
